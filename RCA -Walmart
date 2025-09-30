@@ -1,0 +1,93 @@
+📉 Case Study: 15% Decrease in Orders on Walmart Delivery App — RCA Framework
+
+To identify the root cause behind the drop in orders, we can approach the problem through two major buckets:
+
+🔍 1. External Factors (Outside Walmart’s Direct Control)
+These are influences not caused by the company, but still affect demand.
+
+✅ A. Sentiment / Public Perception Shift
+Sub-cause	Description	Example
+| Sub-cause                       | Description                                         | Example                                                                     |
+| ------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------- |
+| Negative PR / Campaign Backlash | Customers emotionally disconnect due to controversy | If Walmart runs an insensitive ad → public backlash → social media boycott  |
+| Product Resistance              | Users reject certain offerings                      | E.g., protests against plastic-packaged groceries or unhealthy food options |
+
+
+
+✅ B. Competitor Actions
+| Sub-cause                           | Description                                   | Example                                                            |
+| ----------------------------------- | --------------------------------------------- | ------------------------------------------------------------------ |
+| Discount or Festival Campaigns      | Competitors offer better deals                | Flipkart’s *Big Billion Day* reducing Amazon sales                 |
+| Price Wars                          | Competitor lowers prices or increases value   | When Jio reduced mobile plans → users switched from Airtel         |
+| Contract Shifts / Exclusive Tie-ups | Brand loses exclusive content or partnerships | Disney lost IPL rights, JioCinema acquired them → viewers switched |
+
+
+
+✅ C. Demographic / Regional Impact
+| Sub-cause                        | Description                                                        | Example                                                                     |
+| -------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Regulatory Restrictions / Bans   | Certain products restricted in regions                             | Alcohol/grocery bans during elections or lockdowns                          |
+| Power or Internet Blackouts      | Users unable to place orders                                       | Local electricity outage leading to drop in app usage                       |
+| Seasonal or Cultural Disruptions | Long regional holidays where users travel or avoid online ordering | Example: During *Diwali*, people travel to hometowns and don’t order online |
+
+
+
+✅ D. Collateral Events
+| Sub-cause                 | Description                                   | Example                                      |
+| ------------------------- | --------------------------------------------- | -------------------------------------------- |
+| Natural Disasters         | Operations affected due to environment        | Floods, hurricanes → delivery routes blocked |
+| Pandemic or Health Crises | People stop ordering or apps pause operations | COVID lockdown impact                        |
+| Product Irrelevance       | Product replaced by a better alternative      | Chegg usage dropped due to ChatGPT           |
+
+
+🏢 2. Internal Factors (Within Walmart’s Control)
+These are changes made by the company that unintentionally caused a drop in orders.
+
+
+✅ A. Policy & Pricing Changes
+| Sub-cause                             | Description                                     | Example                                                      |
+| ------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| Platform / Convenience Fee Introduced | Extra charges discourage buyers                 | Swiggy/Zomato introduced platform fees → public outrage      |
+| Minimum Order Value (MOV) Increased   | Users with low cart value drop off              | Grocery apps increasing free delivery threshold              |
+| Commission Change for Sellers         | Vendors withdraw, lowering product availability | Amazon increases seller fee → sellers leave                  |
+| Inventory or Store Reduction          | Low availability drives churn                   | Favorite products not in stock → customers go to competitors |
+| Procurement/Packaging Changes         | Quality drops due to cheaper materials          | Switching suppliers → lower freshness of groceries           |
+
+
+✅ B. Non-Tech Operational Failures
+| Sub-cause                               | Description               | Example                                        |
+| --------------------------------------- | ------------------------- | ---------------------------------------------- |
+| Marketing Spend Cut or Campaign Stopped | Reduced visibility        | Pausing Facebook/Google Ads for cost-cutting   |
+| Supply Chain Inefficiencies             | Delivery delays, failures | Late or damaged orders → bad reviews and churn |
+| Customer Complaints Rise                | Service dissatisfaction   | Poor handling of returns or refunds            |
+| Manufacturing / Quality Decline         | Product dissatisfaction   | Edible products arriving near expiry           |
+
+
+✅ C. Tech Issues (Very Critical in Digital Products)
+| Sub-cause                     | Description                                      | Example                                      |
+| ----------------------------- | ------------------------------------------------ | -------------------------------------------- |
+| App/Website Crash             | Users can’t order                                | Payment page crash at checkout               |
+| Failed App Update             | New UI confuses users                            | Snapchat redesign fiasco leading to backlash |
+| OS Compatibility Issues       | App crashes on new Android/iOS versions          |                                              |
+| Recommendation Engine Failure | Poor product discovery reduces AOV               | Irrelevant suggestions shown on homepage     |
+| A/B Test Gone Wrong           | Experiment negatively impacts major user segment | New design rolled out too early              |
+
+
+✅ Final Step: How to Approach RCA Practically
+To diagnose the exact root cause, follow this:
+
+| Step                                           | Action                                                                               |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------ |
+| 1. **Segment the drop**                        | Identify which users dropped: new vs. repeat, regions, product category, time of day |
+| 2. **Analyze internal logs**                   | Check if failure aligns with tech issues, pricing updates, or policy changes         |
+| 3. **Monitor external signals**                | News articles, social sentiment, competitor ads                                      |
+| 4. **Run customer surveys / feedback prompts** | “Why have you stopped ordering recently?”                                            |
+| 5. **Compare cohorts pre vs post decline**     | Look at order journey drop-off points                                                |
+
+
+
+
+
+
+
+
